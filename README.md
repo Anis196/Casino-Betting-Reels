@@ -33,7 +33,7 @@ You will need a modern web browser to run the project.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/casino-betting-reels.git
+   git clone https://github.com/Anis196/Casino-Betting-Reels.git
    
 2. Open the project directory
 `cd casino-betting-reels`
@@ -71,4 +71,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Anis Shaikh - @an.iss_19 - shaikhanis2004@gmail.com
 
-Project Link: https://github.com/Anis196/JS
+Project Link: https://github.com/Anis196/Casino-Betting-Reels
