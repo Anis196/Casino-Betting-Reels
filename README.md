@@ -70,4 +70,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Anis Shaikh - @an.iss_19 - shaikhanis2004@gmail.com
 
-Project Link: https://github.com/your-username/casino-betting-reels
+Project Link: https://github.com/Anis196/JS
