@@ -1,0 +1,192 @@
+
+body {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;  
+    background: linear-gradient(180deg, #4604a9, #7a2c02);
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.casino-container {
+    text-align: center;
+    max-width: 600px;
+    width: 600px;
+    background: linear-gradient(180deg, #63013d, #080351);
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(217, 255, 0, 0.5);
+}
+
+.game-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-group {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.control-group label,
+.control-group button {
+    width: 100%;
+    margin: 5px 0;
+}
+.control-group input {
+    background: linear-gradient(0deg,#3c3c3c, #ffffff, #3c3c3c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width : 100%;
+    margin: 5px 0;
+}
+
+.reels {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.reel {
+    width: 100px;
+    height: 300px;
+    border: 3px solid #917400;
+    margin: 0 20px;
+    overflow: hidden;
+    background: linear-gradient(270deg,#706e6e,#dfff40, #706e6e);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    transition: transform 0.5s ease-in-out;
+}
+
+.symbol-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: top 2s ease-in-out;
+}
+
+.symbol {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+/*body {
+    background: #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+  }
+  */
+  .heart {
+    font-size: 1em;
+    position: relative;
+    margin: 20px;
+    color : white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .heartbeat {
+    position: relative;
+    z-index: 1;
+    animation: beat 2s linear infinite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    14% {
+      transform: scale(0.9);
+    }
+    21% {
+      transform: scale(1.1);
+    }
+    28% {
+      transform: scale(1) skew(0.008turn);
+    }
+    35% {
+      transform: scale(1) skew(0);
+    }
+  }
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #024a97;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(270deg,#ffff0375,#0ab901, #ffff0375);
+    transform: scale(1.1);
+}
+
+.results {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .casino-container {
+        padding: 10px;
+    }
+
+    .reel {
+        width: 80px;
+        height: 2400px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+/* Animations */
+@keyframes spin {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+}
+
+.symbol {
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
