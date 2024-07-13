@@ -1,6 +1,7 @@
 # Casino Betting Reels
 
 Welcome to the Casino Betting Reels project! This web application simulates a classic slot machine where users can place bets, spin the reels, and potentially win based on the symbols that appear. 
+![Screenshot 2024-07-13 202258](https://github.com/user-attachments/assets/d798c857-2653-4790-8d62-02246a021527)
 
 ## Features
 
